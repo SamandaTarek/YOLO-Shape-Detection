@@ -7,8 +7,10 @@ We used a pre-trained YOLOv4 model after fine tuning on our custom dataset it to
 
 We used the opencv_dnn module to be able to import our saved weights into OpenCV.
 ![table](Table.png) 
+
 ## Output:
 We used opencv library to visualize the output of the model,the model returns class of the shape, confidence of the prediction (percentage) and the bounding box of the shape.
+
 ![TrianglePredict](TrianglePredict.gif) 
 
 ## How to run this project:
